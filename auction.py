@@ -1,4 +1,4 @@
-from art import logo
+from Auction_art import logo
 print(logo)
 print("Welcome to secrete auction program.")
 
