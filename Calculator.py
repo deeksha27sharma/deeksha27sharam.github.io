@@ -1,4 +1,4 @@
-rom art import logo
+from Calculator_art import logo
 print(logo)
 
 def add(n1, n2):
@@ -21,8 +21,6 @@ operation={
     '/':div,
 }
 
-# multiply=operation['*'](4,8)
-# print(multiply)
 def calculator():
     should_accumulate = True
     num1=float(input("what is the first number:"))
