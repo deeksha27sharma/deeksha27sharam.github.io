@@ -36,15 +36,15 @@ if choice1 == "left":
                         "one yellow and one blue. "
                         "Which colour do you choose?\n").lower()
         if choice3 == "red":
-            print("It's a room full of fire. Game Over")
+            print("It's a room full of fire. Game Over😱")
         elif choice3 == "yellow":
-            print("You found the treasure. You Win!")
+            print("You found the treasure. You Win!🤩")
         elif choice3 == "blue":
-            print("You enter a room of beasts. Game Over.")
+            print("You enter a room of beasts. Game Over😱.")
         else:
-            print("You chose a door that doesn't exist. Game Over.")
+            print("You chose a door that doesn't exist. Game Over😱.")
     else:
-        print("You got attacked by an angry trout. Game Over.")
+        print("You got attacked by an angry trout. Game Over😱.")
 
 else:
-    print("You fell in to a hole. Game Over.")
+    print("You fell in to a hole. Game Over.😱")
